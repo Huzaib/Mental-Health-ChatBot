@@ -1,0 +1,254 @@
+actions:
+- utter_1
+- utter_10
+- utter_2
+- utter_3
+- utter_4
+- utter_5
+- utter_6
+- utter_7
+- utter_8
+- utter_9
+- utter_ask
+- utter_better_feeling
+- utter_bot_Boolean
+- utter_bot_purpose
+- utter_cheer_up
+- utter_conclude
+- utter_continue_sharing
+- utter_creator
+- utter_detail
+- utter_did_that_help
+- utter_discuss
+- utter_final
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_job_done
+- utter_less_sad
+- utter_perfect_happy
+- utter_quick_question
+- utter_rarely
+- utter_satisfied
+- utter_so_sad
+- utter_sometimes
+- utter_usually
+- utter_very_happy
+entities:
+- LINK
+- LINK2
+- LINK3
+- Link3
+intents:
+- goodbye
+- mood_great
+- mood_unhappy
+- greet
+- affirm
+- Satisfied
+- deny
+- bot_challenge
+- bot_purpose
+- Boolean
+- bot_Boolean
+- Help_Session
+- final
+- ask
+- great_conclusion
+- detail
+- mood_depression
+- creator
+- question_1
+responses:
+  utter_1:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Often
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Occasionally
+    - payload: /mood_unhappy
+      title: Rarely
+    - payload: /mood_unhappy
+      title: Never
+    text: Do you tend to join social organisations when you have the opportunities?
+  utter_10:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to include more people in your plans?
+  utter_2:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you have close personal interactions with people?
+  utter_3:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to participate in group activities?
+  utter_4:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you like people to act cool and distant towards you?
+  utter_5:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you tend to be the dominant person when with people?
+  utter_6:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you tend to join social organisations when you have the opportunities?
+  utter_7:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do other people strongly influence your actions?
+  utter_8:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you take time out of your daily routine to sit alone and free of duties?
+  utter_9:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you feel the need of having someone to talk?
+  utter_ask:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: have you felt any kind of stress during the past week?
+  utter_better_feeling:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Did that made you feel you better?
+  utter_bot_Boolean:
+  - text: Yes
+  utter_bot_purpose:
+  - text: I am on a mission to help humanity
+  utter_cheer_up:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    image: https://i.pinimg.com/236x/8a/d5/d0/8ad5d076ad14c0c835dfce853bb732ae--cheer-up-awesome-stuff.jpg
+    text: 'Here is something to cheer you up:'
+  utter_conclude:
+  - text: It was so nice talking to you
+  utter_continue_sharing:
+  - text: No worries I am still here for you. Keep on sharing your feelings. This
+      will definitely help.
+  utter_creator:
+  - text: Here, you will find details about my [creator](https://www.linkedin.com/in/huzaib-ul-hassan)
+  utter_detail:
+  - text: you can tell me all about it
+  utter_did_that_help:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Did that help you?
+  utter_discuss:
+  - text: I am here for you. You can discuss all your problems with me. Feel free
+      to pour your heart out.
+  utter_final:
+  - text: Thanx for sharing, I know it was hard for you
+  utter_goodbye:
+  - image: https://www.desicomments.com/wp-content/uploads/2018/08/Goodbye-Image-600x397.jpg
+    text: 'Eva is always happy to assist you. Till next time: '
+  utter_greet:
+  - buttons:
+    - payload: /mood_great
+      title: Great
+    - payload: /mood_great
+      title: Perfect
+    - payload: /mood_unhappy
+      title: Not so good
+    - payload: /mood_unhappy
+      title: Worse than ever
+    image: https://media1.tenor.com/images/b440fe8b087416820258b711b91ca18a/tenor.gif?itemid=9499692
+    text: Hey! I am Eva, Your personal mental health assistant. How are you doing
+      today?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_job_done:
+  - text: I am so happy for you. Feel free to connect whenever you need me. Thanks
+  utter_less_sad:
+  - text: Atleast something is good. Tell me more about how you are feeling
+  utter_perfect_happy:
+  - text: That's nice. One must always stay positive and cherish the bounties around.
+      Feel free to share your experience with Eva.
+  utter_quick_question:
+  - text: Quick Question.
+  utter_rarely:
+  - text: Quick Tip- You must realize the importance of getting yourself involved.
+  utter_satisfied:
+  - text: It has been my pleasure to be of assistance
+  utter_so_sad:
+  - text: That's so sad
+  utter_sometimes:
+  - text: Quick Tip- You should try it more often.
+  utter_usually:
+  - text: Quick Tip- That's great. Keep it up.
+  utter_very_happy:
+  - text: That's amazing. People should learn from you to be more lively and positive
+      in life. Feel free to share your experience.
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  LINK:
+    type: text
