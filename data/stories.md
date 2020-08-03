@@ -13,48 +13,6 @@
 ## bot Boolean
 * bot_Boolean
   - utter_bot_Boolean
-  
-## Help Session Unhappy1
-* greet
-  - utter_greet
-* mood_depression
-  - utter_ask
-* affirm
-  - utter_so_sad
-* detail
-  - utter_detail
-  - utter_did_that_help
-* affirm
-  - utter_happy
-* final
-  - utter_final
-  
-## Help Session Unhappy2
-* greet
-  - utter_greet
-* mood_depression
-  - utter_ask
-* deny
-  -utter_less_sad
-* detail
-  - utter_detail
-  - utter_did_that_help
-* deny
-  - utter_cheer_up
-* final
-  - utter_final
- 
-## Help Session Happy
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
-* great_conclusion
-  - utter_conclude
-* goodbye
-  - utter_goodbye
-
-
 
 
 
@@ -136,6 +94,57 @@
     - utter_6
 * mood_great
     - utter_sometimes
+    - utter_quick_question
+    - utter_11
+    - utter_sometimes
+* Satisfied{"LINK3": "satisfied"}
+    - utter_goodbye
+    - action_restart
+    
+## interactive_story_1
+* greet{"LINK": "hello"}
+    - slot{"LINK": "hello"}
+    - utter_greet
+* mood_unhappy
+    - utter_ask
+* affirm
+    - utter_so_sad
+    - utter_discuss
+* mood_unhappy
+    - utter_better_feeling
+* affirm
+    - utter_satisfied
+    - utter_quick_question
+    - utter_6
+* mood_great
+    - utter_sometimes
+    - utter_quick_question
+    - utter_11
+    - utter_usually
+* Satisfied{"LINK3": "satisfied"}
+    - utter_goodbye
+    - action_restart
+    
+## interactive_story_1
+* greet{"LINK": "hello"}
+    - slot{"LINK": "hello"}
+    - utter_greet
+* mood_unhappy
+    - utter_ask
+* affirm
+    - utter_so_sad
+    - utter_discuss
+* mood_unhappy
+    - utter_better_feeling
+* affirm
+    - utter_satisfied
+    - utter_quick_question
+    - utter_6
+* mood_great
+    - utter_sometimes
+    - utter_quick_question
+    - utter_11
+    - utter_rarely
 * Satisfied{"LINK3": "satisfied"}
     - utter_goodbye
     - action_restart
@@ -157,6 +166,9 @@
     - utter_8
 * mood_great
     - utter_usually
+    - utter_quick_question
+    - utter_12
+    - utter_rarely
 * goodbye
     - utter_goodbye
     - action_restart
@@ -173,6 +185,8 @@
     - utter_3
 * mood_unhappy
     - utter_rarely
+    - utter_quick_question
+    - utter_13
     - utter_goodbye
     - action_restart
 
@@ -188,6 +202,8 @@
     - utter_10
 * mood_great
     - utter_sometimes
+    - utter_quick_question
+    - utter_14
 * Satisfied{"LINK3": "satisfied"}
     - utter_goodbye
     - action_restart
@@ -209,6 +225,8 @@
     - utter_1
 * mood_great
     - utter_sometimes
+    - utter_quick_question
+    - utter_15
 * Satisfied{"LINK3": "satisfied"}
     - utter_goodbye
     - action_restart
@@ -225,6 +243,8 @@
     - utter_3
 * mood_unhappy
     - utter_rarely
+    - utter_quick_question
+    - utter_16
     - utter_goodbye
 * goodbye{"LINK2": "goodbye"}
     - utter_goodbye
@@ -246,6 +266,8 @@
     - utter_3
 * mood_unhappy
     - utter_rarely
+    - utter_quick_question
+    - utter_17
     - utter_goodbye
 * goodbye{"LINK2": "goodbye"}
     - utter_goodbye
@@ -267,6 +289,8 @@
     - utter_8
 * mood_great
     - utter_usually
+    - utter_quick_question
+    - utter_18
 * goodbye
     - utter_goodbye
     - action_restart
