@@ -4,8 +4,8 @@ digraph  {
 1 [class=active, fontsize=12, label=action_session_start];
 2 [class="", fontsize=12, label=utter_greet];
 "-3" [class=ellipsis, label="..."];
-4 [class="dashed active", fontsize=12, label=utter_greet];
-5 [class=intent, fillcolor=lightblue, label=hi, shape=rect, style=filled];
+4 [class="intent dashed active", label="  ?  ", shape=rect];
+5 [class=intent, fillcolor=lightblue, label=hey, shape=rect, style=filled];
 0 -> "-1"  [class="", key=NONE, label=""];
 0 -> 1  [class=active, key=NONE, label=""];
 1 -> 4  [class=active, key=NONE, label=""];

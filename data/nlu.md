@@ -20,7 +20,10 @@
 - [hiyy](LINK)
 - [hiiii](LINK)
 - [hii](LINK)
-- [hi]{"entity": "LINK", "value": "hello"}
+- [hi](LINK:hello)
+- hey
+- heys
+- [hiya](LINK)
 
 ## intent:goodbye
 - [bye]{"entity": "LINK2", "value": "goodbye"}
@@ -46,6 +49,11 @@
 - sure man
 - will make sure
 - sure
+- ok will do
+- i know[](LINK3:Satsified)
+- bye
+- ok will follow
+- ok
 
 ## intent:affirm
 - yes
@@ -73,6 +81,8 @@
 - I am great
 - I'm good
 - chameli gang
+- feelings monjul
+- I am feeling bad
 
 ## intent:mood_unhappy
 - sad
@@ -107,6 +117,15 @@
 - life been hard for me
 - just this much not moe
 - yeah it was thnx for listening
+- hard life
+- yeah
+- messed up and stuff
+- thnx for listening
+- ok listen
+- life is hard
+- hard and fast life
+- yeah it was
+- messed up life
 
 ## intent:bot_challenge
 - are you a bot?
@@ -127,6 +146,7 @@
 - I need help
 - I cannot live
 - I feel alone
+- cool
 
 ## intent:Satisfied
 - its been so much better since you helped me[]{"entity": "LINK3", "value": "Felling better than ever"}
@@ -140,6 +160,10 @@
 - ok noted[]{"entity": "LINK3", "value": "satisfied"}
 - lifes bttr when u live each moment
 - ups and downs
+- kind of muxture of this and that[](LINK3:SATISFIED)
+- it was somewhat everything[](LINK3:Satisfied)
+- full shit
+- cool[](LINK3:satisfied)
 
 ## synonym:goodbye
 - bye
@@ -147,6 +171,6 @@
 - see you later
 
 ## synonym:hello
-- hey
 - hi
+- hey
 - good morning

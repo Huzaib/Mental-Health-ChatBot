@@ -1,13 +1,5 @@
 actions:
 - utter_1
-- utter_2
-- utter_3
-- utter_4
-- utter_5
-- utter_6
-- utter_7
-- utter_8
-- utter_9
 - utter_10
 - utter_11
 - utter_12
@@ -18,7 +10,15 @@ actions:
 - utter_17
 - utter_18
 - utter_19
+- utter_2
 - utter_20
+- utter_3
+- utter_4
+- utter_5
+- utter_6
+- utter_7
+- utter_8
+- utter_9
 - utter_ask
 - utter_better_feeling
 - utter_bot_Boolean
@@ -51,13 +51,14 @@ entities:
 - LINK3
 - Link3
 intents:
-- goodbye
-- mood_great
 - mood_unhappy
+- goodbye
 - greet
+- mood_great
 - affirm
-- Satisfied
+- mood_depression
 - deny
+- Satisfied
 - bot_challenge
 - bot_purpose
 - Boolean
@@ -67,7 +68,6 @@ intents:
 - ask
 - great_conclusion
 - detail
-- mood_depression
 - creator
 - question_1
 responses:
@@ -76,15 +76,9 @@ responses:
     - payload: /mood_great
       title: Usually
     - payload: /mood_great
-      title: Often
-    - payload: /mood_great
       title: Sometimes
     - payload: /mood_unhappy
-      title: Occasionally
-    - payload: /mood_unhappy
       title: Rarely
-    - payload: /mood_unhappy
-      title: Never
     text: Do you tend to join social organisations when you have the opportunities?
   utter_10:
   - buttons:
@@ -95,6 +89,89 @@ responses:
     - payload: /mood_unhappy
       title: Rarely
     text: Do you try to include more people in your plans?
+  utter_11:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to forget about something bad you ever said or did?
+  utter_12:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you keep calm in an emotionally charged situation?
+  utter_13:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to help your subordinates by going out of way to do something
+      for them?
+  utter_14:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you care for facts rather than subjective opinions?
+  utter_15:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to include more people in your plans?
+  utter_16:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you ever use "please" or "thank you" in your everyday conversation?
+  utter_17:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you se standards for proper performance and insist that people achieve
+      them?
+  utter_18:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you naturally smile at other people?
+  utter_19:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to find ways to make a boring task interesting?
   utter_2:
   - buttons:
     - payload: /mood_great
@@ -104,6 +181,15 @@ responses:
     - payload: /mood_unhappy
       title: Rarely
     text: Do you have close personal interactions with people?
+  utter_20:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you help out co-workers in case of emergencies ?
   utter_3:
   - buttons:
     - payload: /mood_great
@@ -167,96 +253,6 @@ responses:
     - payload: /mood_unhappy
       title: Rarely
     text: Do you try to take charge of things when with people?
-  utter_11:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you try to forget about something bad you ever said or did?
-  utter_12:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you keep calm in an emotionally charged situation?
-  utter_13:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you try to help your subordinates by going out of way to do something for them?
-  utter_14:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you care for facts rather than subjective opinions?
-  utter_15:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you try to include more people in your plans?
-  utter_16:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you ever use "please" or "thank you" in your everyday conversation?
-  utter_17:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you se standards for proper performance and insist that people achieve them?
-  utter_18:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you naturally smile at other people?
-  utter_19:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you try to find ways to make a boring task interesting?
-  utter_20:
-  - buttons:
-    - payload: /mood_great
-      title: Usually
-    - payload: /mood_great
-      title: Sometimes
-    - payload: /mood_unhappy
-      title: Rarely
-    text: Do you help out co-workers in case of emergencies ?
   utter_ask:
   - buttons:
     - payload: /affirm
