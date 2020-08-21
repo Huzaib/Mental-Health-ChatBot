@@ -24,3 +24,5 @@ policies:
     max_history: 5
     epochs: 100
   - name: MappingPolicy
+  - name: KerasPolicy
+  - name: FormPolicy

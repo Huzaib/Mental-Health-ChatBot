@@ -1,7 +1,6 @@
 ## bot challenge
 * bot_challenge
-  - utter_iamabot
-   
+  - utter_iamabot  
 ## bot purpose
 * bot_purpose
   - utter_bot_purpose
@@ -29,6 +28,18 @@
     - utter_satisfied
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
+    - action_restart
 
 ## interactive_story_1
 * greet{"LINK": "hiii"}
@@ -49,6 +60,18 @@
     - utter_final
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
+    - action_restart
 
 
 
@@ -69,83 +92,128 @@
     - utter_satisfied
 * goodbye
     - utter_goodbye
-
-## interactive_story_1
-* greet{"LINK": "hello"}
-    - slot{"LINK": "hello"}
-    - utter_greet
-* mood_unhappy
-    - utter_ask
+    - utter_mood_count
 * affirm
-    - utter_so_sad
-    - utter_discuss
-* mood_unhappy
-    - utter_better_feeling
-* affirm
-    - utter_satisfied
-    - utter_quick_question
-    - utter_6
-* mood_great
-    - utter_sometimes
-    - utter_quick_question
-    - utter_11
-* mood_great
-    - utter_sometimes
-* Satisfied{"LINK3": "satisfied"}
-    - utter_goodbye
-    - action_restart
-    
-## interactive_story_1
-* greet{"LINK": "hello"}
-    - slot{"LINK": "hello"}
-    - utter_greet
-* mood_unhappy
-    - utter_ask
-* affirm
-    - utter_so_sad
-    - utter_discuss
-* mood_unhappy
-    - utter_better_feeling
-* affirm
-    - utter_satisfied
-    - utter_quick_question
-    - utter_6
-* mood_great
-    - utter_usually
-    - utter_quick_question
-    - utter_11
-* mood_great
-    - utter_usually
-* Satisfied{"LINK3": "satisfied"}
-    - utter_goodbye
-    - action_restart
-    
-## interactive_story_1
-* greet{"LINK": "hello"}
-    - slot{"LINK": "hello"}
-    - utter_greet
-* mood_unhappy
-    - utter_ask
-* affirm
-    - utter_so_sad
-    - utter_discuss
-* mood_unhappy
-    - utter_better_feeling
-* affirm
-    - utter_satisfied
-    - utter_quick_question
-    - utter_6
-* mood_unhappy
-    - utter_rarely
-    - utter_quick_question
-    - utter_11
-* mood_unhappy
-    - utter_rarely
-* Satisfied{"LINK3": "satisfied"}
-    - utter_goodbye
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
+* greet{"LINK": "hello"}
+    - slot{"LINK": "hello"}
+    - utter_greet
+* mood_unhappy
+    - utter_ask
+* affirm
+    - utter_so_sad
+    - utter_discuss
+* mood_unhappy
+    - utter_better_feeling
+* affirm
+    - utter_satisfied
+    - utter_quick_question
+    - utter_6
+* mood_great
+    - utter_sometimes
+    - utter_quick_question
+    - utter_11
+* mood_great
+    - utter_sometimes
+* Satisfied{"LINK3": "satisfied"}
+    - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
+    - action_restart
+    
+## interactive_story_1
+* greet{"LINK": "hello"}
+    - slot{"LINK": "hello"}
+    - utter_greet
+* mood_unhappy
+    - utter_ask
+* affirm
+    - utter_so_sad
+    - utter_discuss
+* mood_unhappy
+    - utter_better_feeling
+* affirm
+    - utter_satisfied
+    - utter_quick_question
+    - utter_6
+* mood_great
+    - utter_usually
+    - utter_quick_question
+    - utter_11
+* mood_great
+    - utter_usually
+* Satisfied{"LINK3": "satisfied"}
+    - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
+    - action_restart
+    
+## interactive_story_1
+* greet{"LINK": "hello"}
+    - slot{"LINK": "hello"}
+    - utter_greet
+* mood_unhappy
+    - utter_ask
+* affirm
+    - utter_so_sad
+    - utter_discuss
+* mood_unhappy
+    - utter_better_feeling
+* affirm
+    - utter_satisfied
+    - utter_quick_question
+    - utter_6
+* mood_unhappy
+    - utter_rarely
+    - utter_quick_question
+    - utter_11
+* mood_unhappy
+    - utter_rarely
+* Satisfied{"LINK3": "satisfied"}
+    - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
+    - action_restart
+
+## interactive_story_1
 * greet{"LINK": "hii"}
     - slot{"LINK": "hii"}
     - utter_greet
@@ -168,6 +236,17 @@
     - utter_usually
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
     
 ## interactive_story_1
@@ -193,6 +272,17 @@
     - utter_sometimes
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
     
 ## interactive_story_1
@@ -218,6 +308,17 @@
     - utter_rarely
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -238,6 +339,17 @@
     - utter_rarely
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -258,6 +370,17 @@
     - utter_sometimes
 * Satisfied{"LINK3": "satisfied"}
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -283,6 +406,17 @@
     - utter_sometimes
 * Satisfied{"LINK3": "satisfied"}
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -305,6 +439,17 @@
     - utter_goodbye
 * goodbye{"LINK2": "goodbye"}
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -329,8 +474,18 @@
     - utter_sometimes
 * goodbye
     - utter_goodbye
-* goodbye{"LINK2": "goodbye"}
-    - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
+    - action_restart
 
 ## interactive_story_1
 * greet{"LINK": "hello"}
@@ -355,6 +510,17 @@
     - utter_usually
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -375,6 +541,17 @@
     - utter_usually
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -395,7 +572,17 @@
     - utter_usually
 * goodbye{"LINK3": "Satsified"}
     - utter_goodbye
-* goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -421,6 +608,17 @@
     - utter_sometimes
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -445,6 +643,17 @@
     - utter_usually
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -469,6 +678,17 @@
     - utter_usually
 * Satisfied{"LINK3": "satisfied"}
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -495,6 +715,17 @@
     - utter_usually
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart
 
 ## interactive_story_1
@@ -519,4 +750,15 @@
     - utter_sometimes
 * goodbye
     - utter_goodbye
+    - utter_mood_count
+* affirm
+    - utter_name
+    - utter_age
+    - utter_addicted
+    - utter_knowledge
+    - utter_feeling
+    - utter_sharing
+    - utter_Stars
+    - utter_history
+*deny
     - action_restart

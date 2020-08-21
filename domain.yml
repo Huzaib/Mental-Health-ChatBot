@@ -45,6 +45,14 @@ actions:
 - utter_sometimes
 - utter_usually
 - utter_very_happy
+- utter_name
+- utter_age
+- utter_addicted
+- utter_knowledge
+- utter_feeling
+- utter_sharing
+- utter_Stars
+- utter_history
 entities:
 - LINK
 - LINK2
@@ -342,9 +350,102 @@ responses:
   utter_very_happy:
   - text: That's amazing. People should learn from you to be more lively and positive
       in life. Feel free to share your experience.
+  utter_mood_count:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Would you like to answer a few questions to calculate your mood score?
+  utter_name:
+  - text: Let's start with your name...
+  utter_age:
+  - text: And what about your age?
+  utter_addicted:
+  - buttons:
+    - payload: /Mood_Count
+      title: Yes to both
+    - payload: /Mood_Count
+      title: Only to drugs
+    - payload: /Mood_Count
+      title: Only to alcohol
+    - payload: /Mood_Count
+      title: I am not habituated to either
+      text: Are you habituated to drugs and alcohol?
+  utter_knowledge:
+  - buttons:
+    - payload: /Mood_Count
+      title: Very Knowledgeable
+    - payload: /Mood_Count
+      title: Knowledgeable
+    - payload: /Mood_Count
+      title: Neutral
+    - payload: /Mood_Count
+      title: No knowledge at all
+      text: How knowledgeable are you about mental health related issues?
+  utter_feeling:
+  - buttons:
+    - payload: /Mood_Count
+      title: Yes
+    - payload: /Mood_Count
+      title: No
+      text: Have you felt particularly low or down for more than 2 weeks in a row?
+  utter_Stars:
+  - buttons:
+    - payload: /Mood_Count
+      title: Low
+    - payload: /Mood_Count
+      title: Neutral
+    - payload: /Mood_Count
+      title: High
+    - payload: /Mood_Count
+      title: Very high
+      text: How would you rate your stress levels?
+  utter_history:
+  - buttons:
+    - payload: /Mood_Count
+      title: Yes
+    - payload: /Mood_Count
+      title: No
+    - payload: /Mood_Count
+      title: Not sure
+      text: Is there a history of mental disorder in your family?
+  utter_sharing:
+  - buttons:
+    - payload: /Mood_Count
+      title: Very often
+    - payload: /Mood_Count
+      title: Sometimes
+    - payload: /Mood_Count
+      title: No
+    - payload: /Mood_Count
+      title: I am self dependent
+      text: Do you often feel the need of sharing your feelings?
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
 slots:
-  LINK:
-    type: text
+  name:
+    auto_fill: false
+    type: unfeaturized
+  age:
+    auto_fill: false
+    type: unfeaturized
+  history:
+    auto_fill: false
+    type: unfeaturized
+  feeling:
+    auto_fill: false
+    type: unfeaturized
+  addiction:
+    auto_fill: false
+    type: unfeaturized
+  knowledge:
+    auto_fill: false
+    type: unfeaturized
+  Stars:
+    auto_fill: false
+    type: unfeaturized
+  sharing:
+    auto_fill: false
+    type: unfeaturized

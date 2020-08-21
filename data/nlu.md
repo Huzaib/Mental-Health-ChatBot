@@ -2,7 +2,6 @@
 - who is your creator?
 - who has made you?
 - who brought you into existence?
-
 ## intent:greet
 - [hey]{"entity": "LINK", "value": "hello"}
 - [hello](LINK)
@@ -174,3 +173,12 @@
 - hi
 - hey
 - good morning
+
+## intent:Mood_Count
+- Knowledgeable
+- knowledge
+- drugs
+- alcohol
+- low
+- neutral
+- 35
