@@ -1,0 +1,35 @@
+,,,                                                                                             Timesheet
+Day,Month,Year,Work
+,,,
+11,7,2020,Studied about how recommendation sysytem works and what are the best possible
+12,7,2020,Created my own recommendation system using the MovieLens Dataset from Kaggle and submiited it to sir
+13,7,2020,Task – Assignment = Sir asked to explore Woebot working and similar apps on playstore and project on creating chatbot using rasa 
+14,7,2020,Started understanding the framework of rasa and created a simple chatbot answering basic predefined questions based on basic intent classification
+15,7,2020,Found out the amazing features of the rasa x UI and worked on improving and training models on the UI itself
+16,7,2020,Added buttons to the chatbot. This helped greatly maintain the flow of the bot and also added photos and links to make it more attractive 
+17,7,2020,Tried sharing the bot with sir for suggestions but not able to share to create a working link. Right now the bot is only working on my localhost. Looking for solutions 
+18,7,2020,Found a temporary solution using ngrok. Problem with this is that people can only use a link while the bot is running on my system. Solution – Need to upload it on a server
+19,7,2020,Sir asked to check the question-answer flow of the Wysa app on playstore and made changes to my bot according to that
+20,7,2020,Found and learnt the functionality of rasa interactive. It is super user friendly and highly effective. Added various branches to my original bot
+21,7,2020,"Worked on the integration of my bot with facebook messenger. Create a fb page called Mental Health Chatbot. Again faced the same problem, page only responds when the bot is running on my system"
+22,7,2020,Sir asked the add questions from firo-b questionnaire. Added them according to the flow of the bot and worked on the intent classification as it was outputting wrong intent sometimes
+23,7,2020,Sir asked to add more questions so worked on adding more questions and asked some of my friends to review the bot . They pointed out some bugs and gave their suggestions
+24,7,2020,Worked on clearing out all the bugs. One particular was that few questions were being asked twice simultaneously. Tried resolving it but wasn’t going away. Looking for solutions
+25,7,2020,Got the solution using rasa interactive but had to manually go to every possible situation to take out the issue. Now the problem isn’t occurring. Removed some predefined stories which are irrelevant for this project 
+26,7,2020,Felt sick Couldn’t work
+27,7,2020,Felt sick Couldn’t work
+28,7,2020,Worked on integrating the bot to slack. Facing major issues and not able to ressolve them
+29,7,2020,Tried pushing my code to github but not being able to do so. Getting error: Remote end failed unexpectedly. Searched on the web on this and asked some people from open-source community. Seems like the problem is git push only allows to push upto 100mb at a time
+30,7,2020,The problem could be solved only by pushing different parts of the code separately. Found out that the models folder was not the issue causing So I shared the link to the repo to sir
+31,7,2020,Sir asked me to change the repo to private and add a documentation . I did . Sir asked a bit more in the functionality part
+1,8,2020,Couldn’t work due to Eid
+2,8,2020,Couldn’t work due to Eid
+3,8,2020,Sir said needs to check working of my bot before proceeding further . Till then I started looking at other options to share my bot. Docker was one but I wasn’t getting any success
+4,8,2020,Read about the effectiveness of chatbots in the mental health field. Also spent some time in reinstalling all the proper softwares as I had shifted from windows to ubuntu
+5,8,2020,Improved my readme file with a testing video of both rasa-x and the messenger testing and worked on the final
+6,8,2020,Asked to convert it in django. Don’t know about django so started studying 
+7,8,2020,Started a tutorial where django was utilised to create first a static website and copying templates
+8,8,2020,Now the same website was converted to a sort of dynamic website where what was shown on the site was dynamic content. The data actually utilised comes from a dataframe
+9,8,2020,Spent a whole day on learning SQL and ibmdb framework so that content can be taken from the dataframe located on ibmdb server
+10,8,2020,Started with REST Framework of django to convert it into API Created the hello world using REST Framework
+11,8,2020,"Really confused how will I use this for converting my bot. Looking for answers and mainly which file do the responses direct to after the intent is classified so that I can link that to my view.py file. Looked in the documenttion of rasa, found nothing"
